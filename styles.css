@@ -26,7 +26,6 @@ h3 {
   color: var(--walnut);
   width: 65%;
   position: relative;
-  left: 20%;
   
 }
 
@@ -110,7 +109,6 @@ footer {
   width: 65%;
   padding-top: 1.5rem;
   position: relative;
-  left: 20%;
   margin: 0;
 
   
@@ -122,7 +120,6 @@ input[type="submit"] {
   width: 8.75%;
   height: 1.7rem;
   border-radius: 5px;
-  left: 15vw;
 }
 
 button,
