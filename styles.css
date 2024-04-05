@@ -51,7 +51,7 @@
     box-shadow: 5px 5px 5px grey;
   }
   
-  #langbutton-en {
+  #langbutton_en {
     background-color: #93d293;
     border: none;
     color: var(--kaitoke-green);
@@ -74,19 +74,19 @@
     color: #d5e7b8;
   }
   
-  #langbutton-en:hover {
+  #langbutton_en:hover {
     background-color: var(--sandal);
     box-shadow: 10px 10px 20px grey;
     color: #d5e7b8;
   }
   
-  #langbutton-fr:hover {
+  #langbutton_fr:hover {
     background-color: var(--sandal);
     box-shadow: 10px 10px 20px grey;
     color: #d5e7b8;
   }
   
-  #langbutton-fr {
+  #langbutton_fr {
     background-color: #93d293;
     border: none;
     color: var(--kaitoke-green);
