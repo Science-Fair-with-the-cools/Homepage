@@ -1,169 +1,171 @@
 /* Colour Palette  - changed the colours a bit for better reading/look*/
 :root {
-    --kaitoke-green: #003e29;
-    --como: #d5e7b8;
-    --sandal: #885607;
-    --walnut: #633e31;
-    --grey: #8da290;
-  }
-  
-  /* Styles: */
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body{
-    background-color: var(--como);
-    color: var(--sandal);
-    font-family: 'Roboto', sans-serif;
-  }
+    --formbg: #22577A;
+    --formtextcol: #FFFFFF;
+    --textcol: #22577A;
+    --buttonbg: #80ED99;
+    --btnhoverbg: #57CC99;
+    --bordercol: #38A3A5;
+    --bgcolor: #C7F9CC;
+}
 
-  main {
-    text-align: center;
-    background-color: var(--como);
-    color: var(--sandal);
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    color: var(--walnut);
-    width: 65%;
-    position: relative;
-    left: 18%;
-  }
-  
-  #header {
-    display: flex;
-    position: sticky;
-    margin: 0;
-    padding: 10px;
-    top: 0%;
-    right: 0%;
-    left: 0%;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #93d293;
-    z-index: 5;
-    border-radius: 21px;
-    box-shadow: 5px 5px 5px grey;
-  }
-  
-  #langbutton_en {
-    background-color: #93d293;
-    border: none;
-    color: var(--kaitoke-green);
-    font-size: 11px;  
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding: 7px;
-    margin: 5px;
-    border-radius: 25px;
-    transition: 0.3s;
-    position: absolute;
-    right: 8%;
-    top: 1%;
-  }
-  
-  
-  button:hover {
-    background-color: var(--sandal);
-    box-shadow: 10px 10px 20px grey;
-    color: #d5e7b8;
-  }
-  
-  #langbutton_en:hover {
-    background-color: var(--sandal);
-    box-shadow: 10px 10px 20px grey;
-    color: #d5e7b8;
-  }
-  
-  #langbutton_fr:hover {
-    background-color: var(--sandal);
-    box-shadow: 10px 10px 20px grey;
-    color: #d5e7b8;
-  }
-  
-  #langbutton_fr {
-    background-color: #93d293;
-    border: none;
-    color: var(--kaitoke-green);
-    font-size: 11px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding: 7px;
-    margin: 5px;
-    border-radius: 25px;
-    transition: 0.3s;
-    position: absolute;
-    right: 0%;
-    top: 1%;
-  }
-  
-  footer {
-    position: relative;
-    bottom: 0;
-  }
-  
-  .sites {
-    color: var(--walnut);
-  }
-  
-  #projectdesc, #projectdesc1, footer{
-    position: relative;
-    width: 65%;
-    padding-top: 1.5rem;
-    margin: 0;
-    left: 18.25%;
-  }
-  
-  a:link {
-    color: var(--walnut);
-    background-color: transparent;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  
-  a:visited {
-    color: var(--sandal);
-    background-color: transparent;
-  }
-  
-  a:hover {
-    color: var(--sandal);
-    background-color: transparent;
-  }
-  
-  a:active {
-    color: var(--walnut);
-    background-color: transparent;
-  }
+/* Styles: */
 
-  button:hover {
-    background-color: var(--sandal);
-    box-shadow: 10px 10px 20px grey;
-    color: #d5e7b8;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  button{
-    background-color: #93d293;
-    border: none;
-    color: var(--kaitoke-green);
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    padding: 1px;
-    margin: auto;
-    border-radius: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 5rem;
-    height: 1.5rem;
-  }
-  .title{
-    position: relative;
-    left: 19%;
-  }
+body{
+  background-color: var(--bgcolor);
+  color: var(--textcol);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  text-align: center;
+  background-color: var(--bgcolor);
+  color: var(--textcol);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--textcol);
+  width: 65%;
+  position: relative;
+  left: 18%;
+}
+
+#header {
+  display: flex;
+  position: sticky;
+  margin: 0;
+  padding: 10px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--btnhoverbg);
+  z-index: 5;
+  border-radius: 21px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#langbutton_en {
+  background-color: var(--buttonbg);
+  border: none;
+  color: var(--textcol);
+  font-size: 11px;  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 25px;
+  transition: 0.3s;
+  position: absolute;
+  right: 8%;
+  top: 1%;
+}
+
+
+button:hover {
+  background-color: var(--btnhoverbg);
+  box-shadow: 10px 10px 20px grey;
+  color:  var(--textcol);
+}
+
+#langbutton_en:hover {
+  background-color: var(--btnhoverbg);
+  box-shadow: 10px 10px 20px grey;
+  color: var(--textcol);
+}
+
+#langbutton_fr:hover {
+  background-color: var(--btnhoverbg);
+  box-shadow: 10px 10px 20px grey;
+  color: var(--textcol);
+}
+
+#langbutton_fr {
+  background-color: var(--buttonbg);
+  border: none;
+  color: var(--textcol);
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 25px;
+  transition: 0.3s;
+  position: absolute;
+  right: 0%;
+  top: 1%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+.sites {
+  color: var(--textcol);
+}
+
+#projectdesc, #projectdesc1, footer{
+  position: relative;
+  width: 65%;
+  padding-top: 1.5rem;
+  margin: 0;
+  left: 18.25%;
+}
+
+a:link {
+  color: var(--textcol);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+a:visited {
+  color: var(--textcol);
+  background-color: transparent;
+}
+
+a:hover {
+  color: var(--textcol);
+  background-color: transparent;
+}
+
+a:active {
+  color: var(--textcol);
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: var(--btnhoverbg);
+  box-shadow: 10px 10px 20px grey;
+  color: var(--textcol);
+}
+
+button{
+  background-color: var(--buttonbg);
+  border: none;
+  color: var(--textcol);
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 1px;
+  margin: auto;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 5rem;
+  height: 1.5rem;
+}
+.title{
+  position: relative;
+  left: 19%;
+}
